@@ -1,0 +1,6 @@
+﻿type project
+id DependsOnAutofac
+version 1.2
+authors Marcin Budny
+description
+    Repro for paket frameworks problem

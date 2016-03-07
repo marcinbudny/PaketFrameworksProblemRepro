@@ -1,0 +1,25 @@
+REDIRECTS: ON
+FRAMEWORK: NET452
+NUGET
+  remote: http://api.nuget.org/v3/index.json
+  specs:
+    Autofac (3.5.2)
+    Autofac.Extras.ServiceStack (2.0.2)
+      Autofac
+      ServiceStack (>= 4.0.0)
+    ServiceStack (4.0.54)
+      ServiceStack.Client (>= 4.0.54)
+      ServiceStack.Common (>= 4.0.54)
+    ServiceStack.Client (4.0.54)
+      ServiceStack.Interfaces (>= 4.0.54)
+      ServiceStack.Text (>= 4.0.54)
+    ServiceStack.Common (4.0.54)
+      ServiceStack.Interfaces (>= 4.0.54)
+      ServiceStack.Text (>= 4.0.54)
+    ServiceStack.Interfaces (4.0.54)
+    ServiceStack.Text (4.0.54)
+  remote: https://www.myget.org/F/paket-framework-problem-repro/api/v3/index.json
+  specs:
+    DependsOnAutofac (1.2.0)
+      Autofac
+      Autofac.Extras.ServiceStack
